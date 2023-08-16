@@ -1,0 +1,268 @@
+body{
+    margin-left:0%;
+    padding: 0%;
+    width: 70%px;
+    overflow-x: hidden;
+    background-color:ghostwhite;
+    font-family: Arial, sans-serif;
+
+}
+nav{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    margin: 0%;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+}
+.navbar1{
+    
+    flex: 1;
+    margin-left: 30px;
+    padding: 3%;
+
+
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    margin: 0%;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0px;
+}
+.footer1{
+    
+    flex: 1;
+    margin-left: 30px;
+    padding: 3%;
+
+
+}
+
+
+.container{
+    flex: 2;
+    padding: 3%;
+
+    align-self: right;
+}
+.container a{
+    padding: 3%;
+}
+.button1{
+    border-radius: 0px;
+    border: 0px;
+    background-color: #75BF7A;
+    color: white;
+    padding: 1%;
+}
+
+
+.button2{
+    border-radius: 0px;
+    border: 0px;
+    background-color: #000000;
+    color: white;
+    padding:  1.5% 3%;
+    margin: 1%;
+    align-items: left;
+}
+.button2 input{
+    width: 15%;
+    height: 15%;
+    padding: 3%;
+}
+.button3{
+    border-radius: 0px;
+    border: 0px;
+    background-color: #000000;
+    color: white;
+    padding:  1.5% 3%;
+    margin: 0%;
+    align-items: left;
+}
+.button-div{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+.container2{
+    display: flex;
+    text-align: center;
+    background-color:ghostwhite;
+    margin: 0%;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+}
+
+.container3{
+    display: flex;
+    text-align: center;
+    background-color:ghostwhite;
+    margin: 0%;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+}
+.container4{
+    display: flex;
+    background-color:ghostwhite;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+}
+.subcon3{
+    flex: 1;
+    margin-left: 100%;
+    padding: 3%;
+    text-align: right;
+    margin-left: 7%;
+}
+.subcon4{
+    flex: 3;
+    margin-right:20%;
+    padding: 3%;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.para{
+    margin-left: 40%;
+    margin-right: 40%;
+    color:rgb(173, 170, 170);
+    text-align: center;
+    font-size: 100%;
+}
+
+.box{
+    flex: 1;
+    background-color:#75BF7A;
+    margin-left: 13%;
+    margin-right:20%;
+    padding: 15px;
+    height: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.box input{
+    width:25%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 1.5%;
+}
+.subcon1{
+    flex: 1;
+    margin-left: 30px;
+    padding: 3%;
+    align-content: left;
+    border: 1px solid black;
+
+    
+}
+.subcon2{
+    flex: 2;
+    padding: 0%;
+
+}
+h1{
+    color:black;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    font-size: 350%;
+}
+.text{
+    margin-left: 20%;
+    margin-right: 20%;
+    color:rgb(173, 170, 170);
+    text-align: left;
+    font-size: 150%;
+}
+.text2{
+    margin-left: 0%;
+    margin-right: 20%;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    font-size: 100%;
+}
+
+
+.imagecontainer{
+    flex: 2;
+    position: relative;
+    margin-top: 18%;
+    margin-left: 15%;
+    text-align: center;
+}
+.image{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 10px;
+    left: 10px;
+}
+
+.under {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+  }
+  
+.over {
+    position: absolute;
+    left: 40px;
+    top: -22px;
+    z-index: -1;
+    
+  }
+.b1{
+    display: flex;
+    background-color:#ffffff;
+    margin-left: 13%;
+    margin-right:20%;
+    padding: 15px;
+    height: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.b1-img{
+    flex: 1;
+}
+.b2{
+    display: flex;
+    background-color:#ffffff;
+    margin-left: 13%;
+    margin-right:20%;
+    padding: 15px;
+    height: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.b2-img{
+    flex: 1;
+}
+.b3{
+    display: flex;
+    background-color:#ffffff;
+    margin-left: 13%;
+    margin-right:20%;
+    padding: 15px;
+    height: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.b3-img{
+    flex: 1;
+}
