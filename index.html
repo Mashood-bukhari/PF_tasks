@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+    <section class="container py-5">
+    <div class="row">
+        <!-- First Column -->
+        <div class="col-md-8 order-2 order-md-1">
+            <form>
+                <h3 class="mt-4">Billing Address</h3>
+                <div class="row">
+                    <div class="col-md">
+                        <label for="formGroupExampleInput" class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name" >
+                        
+                        
+                    </div>
+                    <div class="col-md">
+                        <label for="formGroupExampleInput" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="mt-3 form-group">
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username" >
+                    </div>
+                </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Another label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <!-- Select -->
+                  <div class="row">
+                    <div class="col-md">
+                        <label for="validationServer04" class="form-label">Country</label>
+                        <select id="inputstate" class="form-select" >
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-md">
+                        <label for="validationServer04" class="form-label">State</label>
+                        <select id="inputstate" class="form-select" >
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-md">
+                        <label for="inputField" class="form-label">Input Field</label>
+                        <input type="text" class="form-control" id="inputField" placeholder="Enter something">
+                    </div>
+                </div>
+                <hr>
+                <!-- Checkbox -->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Shipping address is same as my billing address
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Save the information for the next time
+                    </label>
+                  </div>
+                  <hr>
+                  <!-- Radio -->
+                  <h3 class="mt-4 text-secondary">Payment:</h3>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Credit card
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked >
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Dedit Card
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked >
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Paypal
+                    </label>
+                  </div>
+                  <!-- sub contianer -->
+                  <section class="container">
+                    <div class="row mt-3">
+                    <div class="col">
+                        <div>
+                            <label for="formGroupExampleInput" class="form-label">Name on card</label>
+                            <input type="text" class="form-control"  aria-label="Name on card" >
+                            <h6 class="text-secondary">full name is displayed on the card</h6>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md">
+                                <label for="formGroupExampleInput" class="form-label">Expiration</label>
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name" >
+                            </div>
+                            <div class="col-md">
+                                <label for="formGroupExampleInput" class="form-label">CVV</label>
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" >
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="col-md">
+                        <label for="formGroupExampleInput" class="form-label">credit card number</label>
+                        <input type="text" class="form-control"  aria-label="Name on card">
+                    </div>
+                </div>
+                  </section>
+                  
+
+
+
+                <hr>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary w-100">Continue to checkout</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        
+        <!-- Second Column -->
+        <div class="col-md-4 order-1 order-md-2">
+            <div class="input-group mt-4 d-flex justify-content-between">
+                <h3 class="mb-3 display-5">Your Cart</h3>
+                <span class="badge badge-secondary badge-pill align-self-center" style="font-size: 1.5rem;">3</span>
+            </div>
+            <!-- cards -->
+            <div class="col">
+                <div class="card card-hover">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title">Product Name</h5>
+                            <p class="card-text">$12</p>
+                        </div>
+                        <p class="card-text">Brief discription</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-hover">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title">Second Product</h5>
+                            <p class="card-text">$8</p>
+                        </div>
+                        <p class="card-text">Brief discription</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-hover">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title">Third Item</h5>
+                            <p class="card-text">$5</p>
+                        </div>
+                        <p class="card-text">Brief discription</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-hover bg-light">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title text-success">Promo Code</h5>
+                            <p class="card-text text-success">$-5</p>
+                        </div>
+                        <p class="card-text text-success">ExampleCode</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-hover">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title">Total USD $</h5>
+                            <p class="card-text">$20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cards search -->
+            <div class="col  ">
+                
+                    <div class="card-body-md mx-0">
+                        <div class="input-group mt-4 border-1 dark">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="button">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<script>
+    (function () {
+            'use strict'
+
+            var forms = document.querySelectorAll('.needs-validation')
+
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+                })
+            })()
+</script>
+</html>
+
